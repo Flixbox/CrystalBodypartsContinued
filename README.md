@@ -4,7 +4,7 @@ A medieval version of bionics.
 
 Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=2855968478
 
-Original mod by FantasyFan
+Updated by Zaljerem, Original mod by FantasyFan
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1941242146
 
