@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <RecipeDef>
+    <defName>CBPCAnimalSeedCrafting</defName>
+    <label>create animal crystal seed</label>
+    <description>Create animal crystal seed.</description>
+    <jobString>Creating crystal seed.</jobString>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CBPCAnimalShard</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CBPCCore</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <products>
+      <CBPCAnimalSeed>1</CBPCAnimalSeed>
+    </products>
+    <skillRequirements>
+      <Plants>8</Plants>
+    </skillRequirements>
+    <workSkill>Plants</workSkill>
+    <researchPrerequisite>CBPAnimalRes</researchPrerequisite>
+    <recipeUsers>
+      <li>TableButcher</li>
+    </recipeUsers>
+  </RecipeDef>
+
+
+
+
+</Defs>

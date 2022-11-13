@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <!--=======Base===============-->
+
+  <HediffDef Name="AddedCrystalBodyPartBase" ParentName="AddedBodyPartBase" Abstract="True">
+    <defaultLabelColor>(113,168,191)</defaultLabelColor>
+  </HediffDef>
+
+  <HediffDef Name="AddedAdvCrystalBodyPartBase" ParentName="AddedBodyPartBase" Abstract="True">
+    <defaultLabelColor>(166,142,188)</defaultLabelColor>
+  </HediffDef>  
+
+  <!--=======Normal===============-->
+	
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalJaw</defName>
+    <label>crystal jaw</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal jaw</labelNoun>
+	<spawnThingOnRemoved>CrystalJaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalLung</defName>
+    <label>crystal lung</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal lung</labelNoun>
+	<spawnThingOnRemoved>CrystalLung</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalLiver</defName>
+    <description>An installed crystal bodypart.</description>
+    <label>crystal liver</label>
+    <labelNoun>a crystal liver</labelNoun>
+	<spawnThingOnRemoved>CrystalLiver</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalKidney</defName>
+    <label>crystal kidney</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal kidney</labelNoun>
+	<spawnThingOnRemoved>CrystalKidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalStomach</defName>
+    <label>Crystal stomach</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal stomach</labelNoun>
+    <spawnThingOnRemoved>CrystalStomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalEye</defName>
+    <label>crystal eye</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal eye</labelNoun>
+    <spawnThingOnRemoved>CrystalEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalArm</defName>
+    <label>crystal arm</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal arm</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalLeg</defName>
+    <label>crystal leg</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal leg</labelNoun>
+    <spawnThingOnRemoved>CrystalLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalSpine</defName>
+    <label>crystal spine</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal spine</labelNoun>
+    <spawnThingOnRemoved>CrystalSpine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHeart</defName>
+    <label>crystal heart</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal heart</labelNoun>
+    <spawnThingOnRemoved>CrystalHeart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalEar</defName>
+    <label>crystal ear</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal ear</labelNoun>
+    <spawnThingOnRemoved>CrystalEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalNose</defName>
+    <label>crystal nose</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal nose</labelNoun>
+    <spawnThingOnRemoved>CrystalNose</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <!--=======Hand===================-->
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHand</defName>
+    <label>Crystal hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal hand</labelNoun>
+    <spawnThingOnRemoved>CrystalHand</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalClaw</defName>
+    <label>Crystal claw hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal claw hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>claw</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>18.0</power>
+            <cooldownTime>2</cooldownTime>
+            <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalClaw</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHandDrill</defName>
+    <label>crystal drill hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal drill hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>drill</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>13</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalHandDrill</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MiningSpeed>0.2</MiningSpeed>
+          <MiningYield>0.1</MiningYield>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHandCrafting</defName>
+    <label>crystal crafting hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal crafting hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8.2</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalHandCrafting</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHandSickle</defName>
+    <label>crystal sickle hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal sickle hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>blade</label>
+            <capacities>
+              <li>Cut</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>1.5</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalHandSickle</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PlantWorkSpeed>0.2</PlantWorkSpeed>
+          <PlantHarvestYield>0.2</PlantHarvestYield>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHandMedical</defName>
+    <label>crystal medical hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal medical hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8.2</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalHandMedical</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MedicalTendQuality>0.15</MedicalTendQuality>
+          <MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHandHammer</defName>
+    <label>crystal hammer hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal hammer hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>head</label>
+            <labelUsedInLogging>false</labelUsedInLogging>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>14</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>	
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalHandHammer</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ConstructionSpeed>0.2</ConstructionSpeed>
+          <ConstructSuccessChance>0.1</ConstructSuccessChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHandCooking</defName>
+    <label>crystal cooking hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal cooking hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8.2</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalHandCooking</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <CookSpeed>0.2</CookSpeed>
+          <FoodPoisonChance>0.1</FoodPoisonChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHandKnife</defName>
+    <label>crystal knife hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal knife hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>blade</label>
+            <capacities>
+              <li>Cut</li>
+            </capacities>
+            <power>12</power>
+            <cooldownTime>1.5</cooldownTime>
+          </li>
+          <li>
+            <label>point</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>13</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalHandKnife</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ButcheryFleshSpeed>0.2</ButcheryFleshSpeed>
+          <ButcheryFleshEfficiency>0.1</ButcheryFleshEfficiency>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHandClub</defName>
+    <label>crystal club hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal club hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>head</label>
+            <labelUsedInLogging>false</labelUsedInLogging>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>15.7</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalHandClub</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedCrystalBodyPartBase">
+    <defName>CrystalHandAxe</defName>
+    <label>crystal axe hand</label>
+    <description>An installed crystal bodypart.</description>
+    <labelNoun>a crystal axe hand</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>edge</label>
+            <capacities>
+              <li>Cut</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>10</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>CrystalHandAxe</spawnThingOnRemoved>
+    <addedPartProps>
+      <isGoodWeapon>true</isGoodWeapon>
+      <solid>true</solid>
+      <partEfficiency>1.00</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <PlantWorkSpeed>0.25</PlantWorkSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <!--=======Advanced===============-->
+  
+  <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
+    <defName>AdvCrystalEye</defName>
+    <label>adv. crystal eye</label>
+    <description>An installed adv. crystal bodypart.</description>
+    <labelNoun>an adv. crystal eye</labelNoun>
+    <spawnThingOnRemoved>AdvCrystalEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>15</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
+    <defName>AdvCrystalArm</defName>
+    <label>adv. crystal arm</label>
+    <description>An installed adv. crystal bodypart.</description>
+    <labelNoun>an adv. Crystal arm</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>14</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+	<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>15</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+    </comps>
+    <spawnThingOnRemoved>AdvCrystalArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
+    <defName>AdvCrystalLeg</defName>
+    <label>adv. crystal leg</label>
+    <description>An installed adv. crystal bodypart.</description>
+    <labelNoun>an adv. crystal leg</labelNoun>
+    <spawnThingOnRemoved>AdvCrystalLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>15</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
+    <defName>AdvCrystalEar</defName>
+    <label>adv. crystal ear</label>
+    <description>An installed adv. crystal bodypart.</description>
+    <labelNoun>an adv. crystal ear</labelNoun>
+    <spawnThingOnRemoved>AdvCrystalEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>15</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>AdvCrystalJoy</defName>
+    <label>adv. crystal joy</label>
+    <description>An installed adv. crystal bodypart.</description>
+    <labelNoun>an adv. crystal joy</labelNoun>
+    <stages>
+      <li>
+				<partEfficiencyOffset>-0.2</partEfficiencyOffset>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AdvCrystalJoy</spawnThingOnRemoved>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>15</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>
+  
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>AdvCrystalPain</defName>
+    <label>adv. crystal pain relief</label>
+    <description>An installed adv. crystal bodypart.</description>
+    <labelNoun>an adv. crystal pain relief</labelNoun>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>AdvCrystalPain</spawnThingOnRemoved>
+	<comps>
+		<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+				<linearAdjustment>15</linearAdjustment>
+                <scaleAdjustment>0.1</scaleAdjustment>
+			</li>
+</comps>
+  </HediffDef>  
+
+</Defs>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>CBPRes</defName>
+    <label>Crystal Bodyparts</label>
+    <description>Build a crystal growth station and fill it with a crystal seed, crafted at the crafting spot. Craft crystal core from stone chunks at stone cutting table and mine blue crystal shards.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Stonecutting</li>
+    </prerequisites>
+    <tab>CBPTab</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CBPAdvRes</defName>
+    <label>Adv. Crystal Bodyparts</label>
+    <description>Build an adv. crystal growth station and fill it with an adv. crystal seed, crafted at the crafting spot. Craft crystal core from stone chunks at stone cutting table and mine purple crystal shards.</description>
+    <baseCost>5500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>CBPRes</li>
+    </prerequisites>
+    <tab>CBPTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

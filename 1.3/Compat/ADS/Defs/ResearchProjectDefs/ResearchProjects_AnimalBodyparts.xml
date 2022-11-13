@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+<ResearchProjectDef>
+    <defName>CBPAnimalRes</defName>
+    <label>Animal Crystal Bodyparts</label>
+    <description>Build an animal crystal growth station and fill it with an animal crystal seed, crafted at the crafting spot. Craft crystal core from stone chunks at stone cutting table and mine green crystal shards.</description>
+    <baseCost>3500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>CBPRes</li>
+    </prerequisites>
+    <tab>CBPTab</tab>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0.75</researchViewY>
+  </ResearchProjectDef>
+
+
+</Defs>

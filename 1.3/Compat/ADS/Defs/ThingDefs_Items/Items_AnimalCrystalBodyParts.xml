@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!--=======Animal===============-->
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalTail</defName>
+    <label>Animal crystal tail</label>
+    <description>An animal crystal arm. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/TailAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>3</Mass>	
+    </statBases>
+	<tradeTags>
+			<li>AnimalBionics</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+	<thingCategories>
+			<li>BodyPartsAnimalArtificial</li>
+		</thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalArm</defName>
+    <label>Animal crystal arm</label>
+    <description>An animal crystal arm. Fits monkeys and megatherium.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/ArmAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalEar</defName>
+    <label>Animal crystal ear</label>
+    <description>An animal crystal ear. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/EarAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalEye</defName>
+    <label>Animal crystal eye</label>
+    <description>An animal crystal eye. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/EyeAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalLung</defName>
+    <label>Animal crystal lung</label>
+    <description>An animal crystal lung. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/LungAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalKidney</defName>
+    <label>Animal crystal kidney</label>
+    <description>An animal crystal kidney. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/KidneyAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalLiver</defName>
+    <label>Animal crystal liver</label>
+    <description>An animal crystal liver. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/LiverAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalStomach</defName>
+    <label>Animal crystal stomach</label>
+    <description>An animal crystal stomach. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/StomachAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalHeart</defName>
+    <label>Animal crystal heart</label>
+    <description>An animal crystal heart. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/HeartAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalSpine</defName>
+    <label>Animal crystal spine</label>
+    <description>An animal crystal spine. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/SpineAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalLeg</defName>
+    <label>Animal crystal leg</label>
+    <description>An animal crystal leg. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/LegAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>8</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalNose</defName>
+    <label>Animal crystal nose</label>
+    <description>An animal crystal nose. Fits all animals except birds and insects.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/NoseAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AnimalCrystalJaw</defName>
+    <label>Animal crystal jaw</label>
+    <description>An animal crystal jaw. Fits all animals.</description>
+    <graphicData>
+      <texPath>Things/Item/AnimalBodyparts/JawAnimal</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+
+
+
+</Defs>

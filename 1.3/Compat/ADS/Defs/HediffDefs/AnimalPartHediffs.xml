@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<HediffDef Name="AddedAnimalCrystalBodyPartBase" ParentName="addedPartAnimal" Abstract="True">
+    <defaultLabelColor>(150,217,68)</defaultLabelColor>
+  </HediffDef>
+
+<!--======Animal=====================-->
+
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalArm</defName>
+    <label>animal crystal arm</label>
+    <description>An installed animal crystal bodypart.</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>animal crystal arm</label>
+            <capacities>
+              <li>Scratch</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>1.4</cooldownTime>
+            <alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>AnimalCrystalArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.05</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalEar</defName>
+    <label>animal crystal ear</label>
+    <description>An installed animal crystal bodypart.</description>
+    <spawnThingOnRemoved>AnimalCrystalEar</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.005</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalEye</defName>
+    <label>animal crystal eye</label>
+    <description>An installed animal crystal bodypart.</description>
+    <spawnThingOnRemoved>AnimalCrystalEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.01</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.015</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.015</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.015</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalHeart</defName>
+    <label>animal crystal heart</label>
+    <description>An installed animal crystal bodypart.</description>
+		<spawnThingOnRemoved>AnimalCrystalHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.01</ArmorRating_Heat>
+				</statOffsets>
+			</li>		
+		</stages>
+	</HediffDef>
+
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalLung</defName>
+    <label>animal crystal lung</label>
+    <description>An installed animal crystal bodypart.</description>
+    <spawnThingOnRemoved>AnimalCrystalLung</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.01</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.005</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalLiver</defName>
+    <label>animal crystal liver</label>
+    <description>An installed animal crystal bodypart.</description>
+    <spawnThingOnRemoved>AnimalCrystalLiver</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.005</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalKidney</defName>
+    <label>animal crystal kidney</label>
+    <description>An installed animal crystal bodypart.</description>
+    <spawnThingOnRemoved>AnimalCrystalKidney</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.005</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalStomach</defName>
+    <label>animal crystal stomach</label>
+    <description>An installed animal crystal bodypart.</description>
+    <spawnThingOnRemoved>AnimalCrystalStomach</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.005</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalSpine</defName>
+    <label>animal crystal spine</label>
+    <description>An installed animal crystal bodypart.</description>
+    <spawnThingOnRemoved>AnimalCrystalSpine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.01</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.03</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+    <defName>AnimalCrystalTail</defName>
+    <label>animal crystal tail</label>
+    <description>An installed animal crystal bodypart.</description>
+    <addedPartProps>
+      <solid>true</solid>
+    </addedPartProps>
+    <spawnThingOnRemoved>AnimalCrystalTail</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.005</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+		<defName>AnimalCrystalLeg</defName>
+    <label>animal crystal leg</label>
+    <description>An installed animal crystal bodypart.</description>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bionic animal leg</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>20</power>
+						<cooldownTime>1.4</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>AnimalCrystalLeg</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.025</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.03</ArmorRating_Heat>
+				</statOffsets>
+			</li>		
+		</stages>
+	</HediffDef>
+  
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+		<defName>AnimalCrystalNose</defName>
+    <label>animal crystal nose</label>
+    <description>An installed animal crystal bodypart.</description>
+		<spawnThingOnRemoved>AnimalCrystalNose</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1</partEfficiency>
+			<betterThanNatural>false</betterThanNatural>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.005</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+  
+  <HediffDef ParentName="AddedAnimalCrystalBodyPartBase">
+		<defName>AnimalCrystalJaw</defName>
+    <label>animal crystal jaw</label>
+    <description>An installed animal crystal bodypart.</description>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>bionic animal jaw</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>15</power>
+						<cooldownTime>1.6</cooldownTime>
+						<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>AnimalCrystalJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.01</ArmorRating_Heat>
+				</statOffsets>
+			</li>			
+		</stages>
+	</HediffDef>
+
+</Defs>

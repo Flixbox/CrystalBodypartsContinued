@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!--Remove Items-->
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>A Dog Said... Animal Prosthetics</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <!--<success>Always</success>-->
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="CBPCAnimalShard"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="CBPCAnimalSeed"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalTail"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalArm"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalEar"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalEye"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalLung"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalKidney"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalLiver"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalStomach"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalHeart"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalSpine"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalLeg"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalNose"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="AnimalCrystalJaw"]</xpath>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+
+  <!--Remove Hediffs-->
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>A Dog Said... Animal Prosthetics</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <!--<success>Always</success>-->
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[@Name="AddedAnimalCrystalBodyPartBase"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalTail"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalArm"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalEar"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalEye"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalLung"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalKidney"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalLiver"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalStomach"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalHeart"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalSpine"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalLeg"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalNose"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/HediffDef[defName="AnimalCrystalJaw"]</xpath>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+
+  <!--Remove Building-->
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>A Dog Said... Animal Prosthetics</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <!--<success>Always</success>-->
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="CBPAnimalGrowthStation"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="CBPMineableCAnimalShard"]</xpath>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+
+  <!--Remove Recipes-->
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>A Dog Said... Animal Prosthetics</li>
+    </mods>
+    <nomatch Class="PatchOperationSequence">
+      <!--<success>Always</success>-->
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="CBPCAnimalSeedCrafting"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalTail"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalLeg"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[@Name="AnimalCrystalLegBaseAnimal"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalArm"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalNose"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalEye"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalEar"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalJaw"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalSpine"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalHeart"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalLung"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalLiver"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalKidney"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RecipeDef[defName="InstallAnimalCrystalStomach"]</xpath>
+        </li>
+      </operations>
+    </nomatch>
+  </Operation>
+
+  <!--Remove Research-->
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>A Dog Said... Animal Prosthetics</li>
+    </mods>
+    <nomatch Class="PatchOperationRemove">
+      <xpath>/Defs/ResearchProjectDef[defName="CBPAnimalRes"]</xpath>
+    </nomatch>
+  </Operation>
+
+</Patch>
+

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <ThingDef Name="CBPBodyPartBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+	<graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+	<techLevel>Medieval</techLevel>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+	<thingCategories>
+      <li>CBPBodyparts</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.7</Flammability>
+	  <Beauty>-4</Beauty>
+	  <DeteriorationRate>4.0</DeteriorationRate>
+	</statBases>
+	<techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <tradeTags>
+      <li>TechHediff</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <pathCost>10</pathCost>
+  </ThingDef>
+
+  <!--=======Normal===============-->
+  
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalLung</defName>
+    <label>Crystal lung</label>
+    <description>An artifical lung. A pair of these form the core of the human respiratory system.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/LungBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalKidney</defName>
+    <label>Crystal kidney</label>
+    <description>An artifical kidney. Filters and removes waste products from the blood.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/KidneyBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>250</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalLiver</defName>
+    <label>Crystal liver</label>
+    <description>An artifical liver. Plays an important role in metabolism.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/LiverBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalStomach</defName>
+    <label>Crystal stomach</label>
+    <description>An artificial stomach. A set of minerals efficiently digest nearly any foodstuff. An integrated lattice-dust healing system automatically repairs any damage caused by the powerful acids. It is better than a biological stomach in almost every way.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/StomachBlue</texPath>
+    </graphicData>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalJaw</defName>
+    <label>Crystal jaw</label>
+    <description>An artifical jaw. Plays an important role in eating.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/JawBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalEye</defName>
+    <label>Crystal eye</label>
+    <description>An artifical eye. It is better than a biological eye in almost every way. The crystal structure allows it to recover from damage.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/EyeBlue</texPath>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1200</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalArm</defName>
+    <label>Crystal arm</label>
+    <description>An artificial arm. The crystal structure allows it to recover from damage.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/ArmBlue</texPath>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1200</MarketValue>
+      <Mass>5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalLeg</defName>
+    <label>Crystal leg</label>
+    <description>An artificial leg. The crystal structure allows it to recover from damage.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/LegBlue</texPath>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1200</MarketValue>
+      <Mass>8</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalSpine</defName>
+    <label>Crystal spine</label>
+    <description>An artificial spine. It matches the performance of a biological spine.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/SpineBlue</texPath>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1200</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHeart</defName>
+    <label>Crystal heart</label>
+    <description>An artificial heart. It is better than a biological heart in almost every way.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/HeartBlue</texPath>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1200</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalEar</defName>
+    <label>Crystal ear</label>
+    <description>An artificial ear.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/EarBlue</texPath>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1200</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalNose</defName>
+    <label>Crystal nose</label>
+    <description>An artificial nose.</description>
+	<graphicData>
+      <texPath>Things/Item/NormalBodyparts/NoseBlue</texPath>
+    </graphicData>
+    <statBases>
+	  <MarketValue>1200</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <!--=======Hand===================-->
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHand</defName>
+    <label>Crystal hand</label>
+    <description>An artificial hand. It does not have fingers, but can be combined with steel at the smithy to create powerful tools.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/HandBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalClaw</defName>
+    <label>Crystal claw hand</label>
+    <description>A combat-oriented hand replacement consisting of a mineral hand with a vicious claw on each finger. It is vicious in combat, and its powerful claws can crush a skull like a natural hand crushes an egg. The blades can be retracted, making it as useful as a biological hand for non-combat tasks.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/ClawBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHandDrill</defName>
+    <label>Crystal drill hand</label>
+    <description>An artificial drill hand. It speeds up mining and improves the mining yield.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/DrillBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHandCrafting</defName>
+    <label>Crystal crafting hand</label>
+    <description>An artificial crafting hand. It contains crafting tools and speeds up general labor.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/CraftingBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHandSickle</defName>
+    <label>Crystal sickle hand</label>
+    <description>An artificial sickle hand. It speeds up plant work speed and improves the harvest yield.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/SickleBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHandMedical</defName>
+    <label>Crystal medical hand</label>
+    <description>An artificial medical hand. It contains medical tools and improves the tend quality/surgery success chance.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/MedicalBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHandHammer</defName>
+    <label>Crystal hammer hand</label>
+    <description>An artificial hammer hand. It speeds up construction.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/HammerBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHandCooking</defName>
+    <label>Crystal cooking hand</label>
+    <description>An artificial cooking hand. It contains cooking tools, speeds up cooking and decreases the food poison chance.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/CookingBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHandKnife</defName>
+    <label>Crystal knife hand</label>
+    <description>An artificial knife hand. It speeds up butchering and improves the melee damage.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/KnifeBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHandClub</defName>
+    <label>Crystal club hand</label>
+    <description>An artificial club hand. It improves the melee damage.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/ClubBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>CrystalHandAxe</defName>
+    <label>Crystal axe hand</label>
+    <description>An artificial axe hand. It speeds up plant work speed and improves the melee damage.</description>
+    <graphicData>
+      <texPath>Things/Item/NormalBodyparts/AxeBlue</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!--=======Advanced===============-->
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AdvCrystalEye</defName>
+    <label>Adv. Crystal eye</label>
+    <description>An advanced artifical eye.</description>
+	<graphicData>
+      <texPath>Things/Item/AdvancedBodyparts/EyeAdv</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>0.3</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AdvCrystalArm</defName>
+    <label>Adv. Crystal arm</label>
+    <description>An advanced artifical arm. Even if it is harmed, it repairs itself over time.</description>
+	<graphicData>
+      <texPath>Things/Item/AdvancedBodyparts/ArmAdv</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>4</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AdvCrystalLeg</defName>
+    <label>Adv. Crystal leg</label>
+    <description>An advanced artifical leg. Even if it is harmed, it repairs itself over time.</description>
+	<graphicData>
+      <texPath>Things/Item/AdvancedBodyparts/LegAdv</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>7</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AdvCrystalEar</defName>
+    <label>Adv. Crystal ear</label>
+    <description>An advanced artifical ear.</description>
+	<graphicData>
+      <texPath>Things/Item/AdvancedBodyparts/EarAdv</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <Mass>7</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AdvCrystalJoy</defName>
+    <label>Adv. Crystal joy</label>
+    <description>A brain implant that stimulates the brain's pleasure centers. While it dramatically improves a user's mood, the blanket of happiness makes it hard to concentrate on anything real.</description>
+    <graphicData>
+      <texPath>Things/Item/AdvancedBodyparts/JoywireAdv</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="CBPBodyPartBase">
+    <defName>AdvCrystalPain</defName>
+    <label>Adv. Crystal pain relief</label>
+    <description>A brain implant which inhibits nociception, or pain sensation. While it does allow the user to accomplish more, it turns out pain has a purpose. When you don't feel it, you can get hurt really bad really easily.</description>
+    <graphicData>
+      <texPath>Things/Item/AdvancedBodyparts/PainstopperAdv</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <Mass>0.08</Mass>
+    </statBases>
+  </ThingDef> 
+
+</Defs>
+  

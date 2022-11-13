@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<RecipeDef>
+		<defName>CBPCCoreCrafting</defName>
+		<label>smelt stone chunks into a crystal core</label>
+		<description>Turn the stone chunks into a crystal core used for crystal prosthetics crafting.</description>
+		<jobString>Smelting stone chunks into a crystal core.</jobString>
+		<workAmount>1600</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>0.25</count>
+			</li>
+		</ingredients>
+		<products>
+			<CBPCCore>3</CBPCCore>
+		</products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<researchPrerequisite>CBPRes</researchPrerequisite>
+		<recipeUsers>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>CBPCSeedCrafting</defName>
+		<label>create crystal seed</label>
+		<description>Create crystal seed.</description>
+		<jobString>Creating crystal seed.</jobString>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CBPCShard</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CBPCCore</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li MayRequire="carnap2.TMaterials.Glass">
+				<filter>
+					<thingDefs>
+						<li>TMaterials_Glass</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<CBPCSeed>1</CBPCSeed>
+		</products>
+		<skillRequirements>
+			<Plants>8</Plants>
+		</skillRequirements>
+		<workSkill>Plants</workSkill>
+		<researchPrerequisite>CBPRes</researchPrerequisite>
+		<recipeUsers>
+			<li>TableButcher</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>CBPCAdvSeedCrafting</defName>
+		<label>create advanced crystal seed</label>
+		<description>Create advanced crystal seed.</description>
+		<jobString>Creating crystal seed.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CBPCShard</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CBPCCore</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CBPCAdvShard</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li MayRequire="carnap2.TMaterials.Glass">
+				<filter>
+					<thingDefs>
+						<li>TMaterials_Glass</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<CBPCAdvSeed>1</CBPCAdvSeed>
+		</products>
+		<skillRequirements>
+			<Plants>14</Plants>
+		</skillRequirements>
+		<workSkill>Plants</workSkill>
+		<researchPrerequisite>CBPAdvRes</researchPrerequisite>
+		<recipeUsers>
+			<li>TableButcher</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

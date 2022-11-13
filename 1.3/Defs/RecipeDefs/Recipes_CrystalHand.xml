@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <RecipeDef>
+    <defName>SmithCrystalClaw</defName>
+    <label>smith crystal claw hand</label>
+    <description>Smith a crystal claw hand.</description>
+    <jobString>Smithing crystal claw hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalClaw>1</CrystalClaw>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmithCrystalHandDrill</defName>
+    <label>smith crystal drill hand</label>
+    <description>Smith a crystal drill hand.</description>
+    <jobString>Smithing crystal drill hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalHandDrill>1</CrystalHandDrill>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmithCrystalHandCrafting</defName>
+    <label>smith crystal crafting hand</label>
+    <description>Smith a crystal crafting hand.</description>
+    <jobString>Smithing crystal crafting hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalHandCrafting>1</CrystalHandCrafting>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmithCrystalHandSickle</defName>
+    <label>smith crystal sickle hand</label>
+    <description>Smith a crystal sickle hand.</description>
+    <jobString>Smithing crystal sickle hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalHandSickle>1</CrystalHandSickle>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmithCrystalHandMedical</defName>
+    <label>smith crystal medical hand</label>
+    <description>Smith a crystal medical hand.</description>
+    <jobString>Smithing crystal medical hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalHandMedical>1</CrystalHandMedical>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmithCrystalHandHammer</defName>
+    <label>smith crystal hammer hand</label>
+    <description>Smith a crystal hammer hand.</description>
+    <jobString>Smithing crystal hammer hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalHandHammer>1</CrystalHandHammer>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmithCrystalHandCooking</defName>
+    <label>smith crystal cooking hand</label>
+    <description>Smith a crystal cooking hand.</description>
+    <jobString>Smithing crystal cooking hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalHandCooking>1</CrystalHandCooking>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmithCrystalHandKnife</defName>
+    <label>smith crystal knife hand</label>
+    <description>Smith a crystal knife hand.</description>
+    <jobString>Smithing crystal knife hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalHandKnife>1</CrystalHandKnife>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmithCrystalHandClub</defName>
+    <label>smith crystal club hand</label>
+    <description>Smith a crystal club hand.</description>
+    <jobString>Smithing crystal club hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalHandClub>1</CrystalHandClub>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmithCrystalHandAxe</defName>
+    <label>smith crystal axe hand</label>
+    <description>Smith a crystal axe hand.</description>
+    <jobString>Smithing crystal axe hand</jobString>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li MayRequire="carnap2.TMaterials.Glass">
+        <filter>
+          <thingDefs>
+            <li>TMaterials_Glass</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <CrystalHandAxe>1</CrystalHandAxe>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>CBPRes</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+</Defs>

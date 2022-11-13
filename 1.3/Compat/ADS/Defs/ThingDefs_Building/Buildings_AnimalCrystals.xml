@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BenchBase">
+    <defName>CBPAnimalGrowthStation</defName>
+    <label>animal crystal growth station</label>
+    <description>An animal crystal growth station for making different types of animal crystal prosthetics.</description>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/CrystalGrowthStation/CBPCrystalGrowthStationAnimal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.45</fillPercent>
+    <pathCost>60</pathCost>
+    <rotatable>false</rotatable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>20</Steel>
+      <CBPCCore>2</CBPCCore>
+      <CBPCAnimalShard>10</CBPCAnimalShard>
+    </costList>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Rare</tickerType>
+    <statBases>
+      <Cleanliness>-7</Cleanliness>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>10</Mass>
+      <MaxHitPoints>40</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <designationCategory>Production</designationCategory>
+    <researchPrerequisites>
+      <li>CBPAnimalRes</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="ProcessorFramework.CompProperties_Processor">
+    <capacity>1</capacity>
+    <independentProcesses>true</independentProcesses>
+    <parallelProcesses>true</parallelProcesses>
+    <dropIngredients>false</dropIngredients>
+    <showProductIcon>true</showProductIcon>
+    <barOffset>(0.0, 0.25)</barOffset>
+    <barScale>(1.0, 1.0)</barScale>
+    <colorCoded>false</colorCoded>
+    <processes>
+      <li>AniCrysTail</li>	
+	<li>AniCrysArm</li>
+      <li>AniCrysEar</li>
+      <li>AniCrysEye</li>
+      <li>AniCrysLung</li>
+      <li>AniCrysKidney</li>
+	<li>AniCrysLiver</li>
+	<li>AniCrysStomach</li>
+	<li>AniCrysHeart</li>
+	<li>AniCrysSpine</li>
+	<li>AniCrysLeg</li>
+	<li>AniCrysNose</li>
+	<li>AniCrysJaw</li>	
+    </processes>
+  </li>
+    </comps>
+  </ThingDef>
+<ThingDef ParentName="RockBase">
+    <defName>CBPMineableCAnimalShard</defName>
+    <label>green crystal ore</label>
+    <description>Rock containing shards of green crystal.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(99,165,18)</color>
+      <colorTwo>(150,217,68)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CBPCAnimalShard</mineableThing>
+      <mineableYield>30</mineableYield>
+      <mineableScatterCommonality>0.4</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>6</min>
+        <max>9</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+</Defs>

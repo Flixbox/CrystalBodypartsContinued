@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <ThingDef ParentName="ResourceBase">
+    <defName>CBPCAnimalShard</defName>
+    <label>green crystal shards</label>
+    <description>Shards form a green crystal found in mountains used for animal crystal prosthetics.</description>
+    <graphicData>
+      <texPath>Things/Item/CBPCrystalShardAnimal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>0.15</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1</deepCommonality>
+    <deepCountPerPortion>7</deepCountPerPortion>
+    <deepLumpSizeRange>
+      <min>6</min>
+      <max>9</max>
+    </deepLumpSizeRange>
+  </ThingDef>
+
+ <ThingDef ParentName="CrystalSeedBase">
+    <defName>CBPCAnimalSeed</defName>
+    <label>animal crystal seed</label>
+    <description>An animal crystal seed, put it into an animal crystal growth station.</description>
+    <graphicData>
+      <texPath>Things/Item/CBPCrystalSeedAnimal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>30</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+  </ThingDef>
+
+
+
+
+</Defs>

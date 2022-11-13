@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>A Dog Said... Animal Prosthetics</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>LBE's A Dog Said Easy Patcher</li>
+      </mods>
+      <match Class="ADogSaidEasyPatcher.PatchoperationsequenceNoFail">
+        <success>Always</success>
+        <operations>
+          <li Class="ADogSaidEasyPatcher.PatchOperationAppend">
+            <xpath>/Defs/ThingDef[@ADogSaidBody != ""]</xpath>
+            <nodeToAddTo>recipes</nodeToAddTo>
+            <value>
+              <li>InstallAnimalCrystalEye</li>
+              <li>InstallAnimalCrystalEar</li>
+              <!--<li>InstallAnimalCrystalNose</li>-->
+              <li>InstallAnimalCrystalJaw</li>
+              <li>InstallAnimalCrystalSpine</li>
+              <li>InstallAnimalCrystalHeart</li>
+              <li>InstallAnimalCrystalLung</li>
+              <li>InstallAnimalCrystalLiver</li>
+              <li>InstallAnimalCrystalKidney</li>
+              <li>InstallAnimalCrystalStomach</li>
+            </value>
+          </li>
+
+          <li Class="ADogSaidEasyPatcher.PatchOperationAppend">
+            <xpath>/Defs/ThingDef[@ADogSaidBody = "Legs"]</xpath>
+            <nodeToAddTo>recipes</nodeToAddTo>
+            <value>
+              <li>InstallAnimalCrystalLeg</li>
+            </value>
+          </li>
+
+          <li Class="ADogSaidEasyPatcher.PatchOperationAppend">
+            <xpath>/Defs/ThingDef[@ADogSaidBody = "Arms"]</xpath>
+            <nodeToAddTo>recipes</nodeToAddTo>
+            <value>
+              <li>InstallAnimalCrystalArm</li>
+            </value>
+          </li>
+
+          <li Class="ADogSaidEasyPatcher.PatchOperationAppend">
+            <xpath>/Defs/ThingDef[@ADogSaidBody = "ArmsTail"]</xpath>
+            <nodeToAddTo>recipes</nodeToAddTo>
+            <value>
+              <li>InstallAnimalCrystalTail</li>
+              <li>InstallAnimalCrystalArm</li>
+            </value>
+          </li>
+
+          <li Class="ADogSaidEasyPatcher.PatchOperationAppend">
+            <xpath>/Defs/ThingDef[@ADogSaidBody = "LegsArms"]</xpath>
+            <nodeToAddTo>recipes</nodeToAddTo>
+            <value>
+              <li>InstallAnimalCrystalLeg</li>
+              <li>InstallAnimalCrystalArm</li>
+            </value>
+          </li>
+
+          <li Class="ADogSaidEasyPatcher.PatchOperationAppend">
+            <xpath>/Defs/ThingDef[@ADogSaidBody = "LegsTail"]</xpath>
+            <nodeToAddTo>recipes</nodeToAddTo>
+            <value>
+              <li>InstallAnimalCrystalTail</li>
+              <li>InstallAnimalCrystalLeg</li>
+            </value>
+          </li>
+
+          <li Class="ADogSaidEasyPatcher.PatchOperationAppend">
+            <xpath>/Defs/ThingDef[@ADogSaidBody = "Tail"]</xpath>
+            <nodeToAddTo>recipes</nodeToAddTo>
+            <value>
+              <li>InstallAnimalCrystalTail</li>
+            </value>
+          </li>
+
+
+          <li Class="ADogSaidEasyPatcher.PatchOperationAppend">
+            <xpath>/Defs/ThingDef[@ADogSaidBody = "LegsArmsTail"]</xpath>
+            <nodeToAddTo>recipes</nodeToAddTo>
+            <value>
+              <li>InstallAnimalCrystalTail</li>
+              <li>InstallAnimalCrystalLeg</li>
+              <li>InstallAnimalCrystalArm</li>
+            </value>
+          </li>
+
+          <li Class="ADogSaidEasyPatcher.PatchOperationAppend">
+            <xpath>/Defs/ThingDef[@ADogSaidBody = "Limbless"]</xpath>
+            <nodeToAddTo>recipes</nodeToAddTo>
+            <value>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  
+</Patch>
