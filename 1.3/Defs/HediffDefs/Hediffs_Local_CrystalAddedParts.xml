@@ -27,7 +27,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalJaw</defName>
     <label>crystal jaw</label>
-    <description>An installed crystal jaw. The crystal spikes make for a decent bite attack.</description>
+    <description>An installed crystal jaw. The crystal spikes make for a decent bite attack. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal jaw</labelNoun>
     <spawnThingOnRemoved>CrystalJaw</spawnThingOnRemoved>
     <comps>
@@ -56,7 +56,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalLung</defName>
     <label>crystal lung</label>
-    <description>An installed crystal lung. The crystalline ringing provides a sense of peace while breathing.</description>
+    <description>An installed crystal lung. The crystalline ringing provides a sense of peace while breathing. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal lung</labelNoun>
     <spawnThingOnRemoved>CrystalLung</spawnThingOnRemoved>
     <stages>
@@ -72,7 +72,7 @@
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalLiver</defName>
-    <description>An installed crystal liver. It's slightly better than a regular liver and helps slightly with bloodflow.</description>
+    <description>An installed crystal liver. It's slightly better than a regular liver and helps slightly with bloodflow. It seems to sap heat out of the body.</description>
     <label>crystal liver</label>
     <labelNoun>a crystal liver</labelNoun>
     <spawnThingOnRemoved>CrystalLiver</spawnThingOnRemoved>
@@ -94,7 +94,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalKidney</defName>
     <label>crystal kidney</label>
-    <description>An installed crystal kidney. The crystalline structures clean the blood a bit better than a regular kidney. It also helps with healing.</description>
+    <description>An installed crystal kidney. The crystalline structures clean the blood a bit better than a regular kidney. It also helps with healing. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal kidney</labelNoun>
     <spawnThingOnRemoved>CrystalKidney</spawnThingOnRemoved>
     <stages>
@@ -110,7 +110,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalStomach</defName>
     <label>Crystal stomach</label>
-    <description>An installed crystal stomach. It gets rid of some microorganisms in the food before they can do any harm.</description>
+    <description>An installed crystal stomach. It gets rid of some microorganisms in the food before they can do any harm. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal stomach</labelNoun>
     <spawnThingOnRemoved>CrystalStomach</spawnThingOnRemoved>
     <stages>
@@ -124,7 +124,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalEye</defName>
     <label>crystal eye</label>
-    <description>An installed crystal eye. It looks shiny and leaves a strong impression on others.</description>
+    <description>An installed crystal eye. It looks shiny and leaves a strong impression on others. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal eye</labelNoun>
     <spawnThingOnRemoved>CrystalEye</spawnThingOnRemoved>
     <stages>
@@ -139,7 +139,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalArm</defName>
     <label>crystal arm</label>
-    <description>An installed crystal arm. It's quite hard and can pack a punch.</description>
+    <description>An installed crystal arm. It's quite hard and can pack a punch. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal arm</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -166,7 +166,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalLeg</defName>
     <label>crystal leg</label>
-    <description>An installed crystal leg.</description>
+    <description>An installed crystal leg. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal leg</labelNoun>
     <spawnThingOnRemoved>CrystalLeg</spawnThingOnRemoved>
     <stages>
@@ -179,7 +179,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalSpine</defName>
     <label>crystal spine</label>
-    <description>An installed crystal spine.</description>
+    <description>An installed crystal spine. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal spine</labelNoun>
     <spawnThingOnRemoved>CrystalSpine</spawnThingOnRemoved>
     <addedPartProps>
@@ -196,7 +196,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHeart</defName>
     <label>crystal heart</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal heart</labelNoun>
     <spawnThingOnRemoved>CrystalHeart</spawnThingOnRemoved>
     <stages>
@@ -219,7 +219,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalEar</defName>
     <label>crystal ear</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal ear</labelNoun>
     <spawnThingOnRemoved>CrystalEar</spawnThingOnRemoved>
     <stages>
@@ -232,7 +232,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalNose</defName>
     <label>crystal nose</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal nose</labelNoun>
     <spawnThingOnRemoved>CrystalNose</spawnThingOnRemoved>
     <addedPartProps>
@@ -250,7 +250,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHand</defName>
     <label>Crystal hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal hand</labelNoun>
     <spawnThingOnRemoved>CrystalHand</spawnThingOnRemoved>
     <addedPartProps>
@@ -267,7 +267,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalClaw</defName>
     <label>Crystal claw hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal claw hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -300,7 +300,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHandDrill</defName>
     <label>crystal drill hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal drill hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -334,7 +334,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHandCrafting</defName>
     <label>crystal crafting hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal crafting hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -367,7 +367,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHandSickle</defName>
     <label>crystal sickle hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal sickle hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -401,7 +401,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHandMedical</defName>
     <label>crystal medical hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal medical hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -435,7 +435,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHandHammer</defName>
     <label>crystal hammer hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal hammer hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -470,7 +470,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHandCooking</defName>
     <label>crystal cooking hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal cooking hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -504,7 +504,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHandKnife</defName>
     <label>crystal knife hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal knife hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -547,7 +547,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHandClub</defName>
     <label>crystal club hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal club hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -580,7 +580,7 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalHandAxe</defName>
     <label>crystal axe hand</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>a crystal axe hand</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -616,7 +616,7 @@
   <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
     <defName>AdvCrystalEye</defName>
     <label>adv. crystal eye</label>
-    <description>An installed adv. crystal bodypart.</description>
+    <description>An installed adv. crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>an adv. crystal eye</labelNoun>
     <spawnThingOnRemoved>AdvCrystalEye</spawnThingOnRemoved>
     <stages>
@@ -629,7 +629,7 @@
   <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
     <defName>AdvCrystalArm</defName>
     <label>adv. crystal arm</label>
-    <description>An installed adv. crystal bodypart.</description>
+    <description>An installed adv. crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>an adv. Crystal arm</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -656,7 +656,7 @@
   <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
     <defName>AdvCrystalLeg</defName>
     <label>adv. crystal leg</label>
-    <description>An installed adv. crystal bodypart.</description>
+    <description>An installed adv. crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>an adv. crystal leg</labelNoun>
     <spawnThingOnRemoved>AdvCrystalLeg</spawnThingOnRemoved>
     <stages>
@@ -669,7 +669,7 @@
   <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
     <defName>AdvCrystalEar</defName>
     <label>adv. crystal ear</label>
-    <description>An installed adv. crystal bodypart.</description>
+    <description>An installed adv. crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>an adv. crystal ear</labelNoun>
     <spawnThingOnRemoved>AdvCrystalEar</spawnThingOnRemoved>
     <stages>
@@ -682,7 +682,7 @@
   <HediffDef ParentName="ImplantHediffBase">
     <defName>AdvCrystalJoy</defName>
     <label>adv. crystal joy</label>
-    <description>An installed adv. crystal bodypart.</description>
+    <description>An installed adv. crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>an adv. crystal joy</labelNoun>
     <addedPartProps>
       <partEfficiency>1.00</partEfficiency>
@@ -699,7 +699,7 @@
   <HediffDef ParentName="ImplantHediffBase">
     <defName>AdvCrystalPain</defName>
     <label>adv. crystal pain relief</label>
-    <description>An installed adv. crystal bodypart.</description>
+    <description>An installed adv. crystal bodypart. It seems to sap heat out of the body.</description>
     <labelNoun>an adv. crystal pain relief</labelNoun>
     <addedPartProps>
       <partEfficiency>1.00</partEfficiency>
