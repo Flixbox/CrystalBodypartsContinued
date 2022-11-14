@@ -4,13 +4,15 @@
         <defName>CBPBodyPartBase</defName>
         <texture>Things/Item/Health/HealthItem</texture>
         <onlyForColor>(173,216,230)</onlyForColor>
-        <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+        <replacement>BionicIcons/Boxes/MedievalBasic</replacement>
+        <colorIcon>(0,153,255)</colorIcon>
     </BionicIconsTextureDef>
 
     <BionicIconsTextureDef>
         <defName>CBPBodyPartAdvanced</defName>
         <texture>Things/Item/Health/HealthItem</texture>
         <onlyForColor>(204,153,255)</onlyForColor>
-        <replacement>BionicIcons/Boxes/Archotech</replacement>
+        <replacement>BionicIcons/Boxes/MedievalAmbroisen</replacement>
+        <colorIcon>(119,0,203)</colorIcon>
     </BionicIconsTextureDef>
 </Defs>
