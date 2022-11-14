@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/HediffDef[@ParentName="AddedCrystalBodyPartBase"]</xpath>
+        <value>
+            <comps>
+                <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                    <linearAdjustment>10</linearAdjustment>
+                    <scaleAdjustment>0.1</scaleAdjustment>
+                </li>
+            </comps>
+        </value>
+    </Operation>
+</Patch>

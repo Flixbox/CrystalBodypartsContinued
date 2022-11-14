@@ -1,218 +1,200 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>A Dog Said... Animal Prosthetics</li>
-			<li>746425621</li>
-		</mods>
-		  <match Class="PatchOperationSequence">
-			<success>Always</success>
-			<operations>
-		
-			<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalArm"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
-		
-		<li Class="PatchOperationAdd">
-                <xpath>/Defs/HediffDef[defName="AnimalCrystalEar"]</xpath>
-                <value>
-                    <comps>
-                        
-                    </comps>
-                </value>
-            </li>
-		
-		<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalEar"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
-	
-	<li Class="PatchOperationAdd">
-                <xpath>/Defs/HediffDef[defName="AnimalCrystalEye"]</xpath>
-                <value>
-                    <comps>
-                        
-                    </comps>
-                </value>
-            </li>
-		
-		<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalEye"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>A Dog Said... Animal Prosthetics</li>
+            <li>746425621</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
 
-	<li Class="PatchOperationAdd">
-                <xpath>/Defs/HediffDef[defName="AnimalCrystalHeart"]</xpath>
-                <value>
-                    <comps>
-                        
-                    </comps>
-                </value>
-            </li>
-		
-		<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalHeart"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
-	
-	<li Class="PatchOperationAdd">
-                <xpath>/Defs/HediffDef[defName="AnimalCrystalLung"]</xpath>
-                <value>
-                    <comps>
-                        
-                    </comps>
-                </value>
-            </li>
-		
-		<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalLung"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>	
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalArm"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
 
-	<li Class="PatchOperationAdd">
-                <xpath>/Defs/HediffDef[defName="AnimalCrystalLiver"]</xpath>
-                <value>
-                    <comps>
-                        
-                    </comps>
-                </value>
-            </li>
-		
-		<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalLiver"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalEar"]</xpath>
+                    <value>
+                        <comps></comps>
+                    </value>
+                </li>
 
-	<li Class="PatchOperationAdd">
-                <xpath>/Defs/HediffDef[defName="AnimalCrystalKidney"]</xpath>
-                <value>
-                    <comps>
-                        
-                    </comps>
-                </value>
-            </li>
-		
-		<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalKidney"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalEar"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
 
-	<li Class="PatchOperationAdd">
-                <xpath>/Defs/HediffDef[defName="AnimalCrystalSpine"]</xpath>
-                <value>
-                    <comps>
-                        
-                    </comps>
-                </value>
-            </li>
-		
-		<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalSpine"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalEye"]</xpath>
+                    <value>
+                        <comps></comps>
+                    </value>
+                </li>
 
-	<li Class="PatchOperationAdd">
-                <xpath>/Defs/HediffDef[defName="AnimalCrystalTail"]</xpath>
-                <value>
-                    <comps>
-                        
-                    </comps>
-                </value>
-            </li>
-		
-		<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalTail"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalEye"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
 
-	<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalLeg"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalHeart"]</xpath>
+                    <value>
+                        <comps></comps>
+                    </value>
+                </li>
 
-	<li Class="PatchOperationAdd">
-                <xpath>/Defs/HediffDef[defName="AnimalCrystalNose"]</xpath>
-                <value>
-                    <comps>
-                        
-                    </comps>
-                </value>
-            </li>
-		
-		<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalNose"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalHeart"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
 
-	<li Class="PatchOperationAdd">
-        <xpath>/Defs/HediffDef[defName="AnimalCrystalJaw"]/comps</xpath>
-        <value>
-            <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
-                <linearAdjustment>10</linearAdjustment>
-                <scaleAdjustment>0.1</scaleAdjustment>
-            </li>
-        </value>
-    </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalLung"]</xpath>
+                    <value>
+                        <comps></comps>
+                    </value>
+                </li>
 
-			</operations>
-		  </match>
-	</Operation>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalLung"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalLiver"]</xpath>
+                    <value>
+                        <comps></comps>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalLiver"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalKidney"]</xpath>
+                    <value>
+                        <comps></comps>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalKidney"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalSpine"]</xpath>
+                    <value>
+                        <comps></comps>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalSpine"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalTail"]</xpath>
+                    <value>
+                        <comps></comps>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalTail"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalLeg"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalNose"]</xpath>
+                    <value>
+                        <comps></comps>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalNose"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/HediffDef[defName="AnimalCrystalJaw"]/comps</xpath>
+                    <value>
+                        <li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+                            <linearAdjustment>10</linearAdjustment>
+                            <scaleAdjustment>0.1</scaleAdjustment>
+                        </li>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
 
 </Patch>
