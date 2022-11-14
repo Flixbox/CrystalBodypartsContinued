@@ -131,6 +131,7 @@
       <li>
         <statOffsets>
           <SocialImpact>0.15</SocialImpact>
+          <Beauty>1</Beauty>
         </statOffsets>
       </li>
     </stages>
@@ -171,7 +172,9 @@
     <spawnThingOnRemoved>CrystalLeg</spawnThingOnRemoved>
     <stages>
       <li>
-        <statOffsets></statOffsets>
+        <statOffsets>
+          <CarryingCapacity>20</CarryingCapacity>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
@@ -188,7 +191,9 @@
     </addedPartProps>
     <stages>
       <li>
-        <statOffsets></statOffsets>
+        <statOffsets>
+          <CarryingCapacity>20</CarryingCapacity>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
@@ -616,12 +621,15 @@
   <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
     <defName>AdvCrystalEye</defName>
     <label>adv. crystal eye</label>
-    <description>An installed adv. crystal bodypart. It seems to sap heat out of the body.</description>
+    <description>An installed advanced crystal eye. It looks very shiny and leaves a strong impression on others. It seems to sap heat out of the body.</description>
     <labelNoun>an adv. crystal eye</labelNoun>
     <spawnThingOnRemoved>AdvCrystalEye</spawnThingOnRemoved>
     <stages>
       <li>
-        <statOffsets></statOffsets>
+        <statOffsets>
+          <SocialImpact>0.25</SocialImpact>
+          <Beauty>2</Beauty>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
@@ -661,7 +669,9 @@
     <spawnThingOnRemoved>AdvCrystalLeg</spawnThingOnRemoved>
     <stages>
       <li>
-        <statOffsets></statOffsets>
+        <statOffsets>
+          <CarryingCapacity>40</CarryingCapacity>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
