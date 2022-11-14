@@ -27,55 +27,119 @@
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalJaw</defName>
     <label>crystal jaw</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal jaw. The crystal spikes make for a decent bite attack.</description>
     <labelNoun>a crystal jaw</labelNoun>
     <spawnThingOnRemoved>CrystalJaw</spawnThingOnRemoved>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>teeth</label>
+            <capacities>
+              <li>Bite</li>
+            </capacities>
+            <power>9.0</power>
+            <cooldownTime>2</cooldownTime>
+            <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+            <chanceFactor>0.07</chanceFactor>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalLung</defName>
     <label>crystal lung</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal lung. The crystalline ringing provides a sense of peace while breathing.</description>
     <labelNoun>a crystal lung</labelNoun>
     <spawnThingOnRemoved>CrystalLung</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeditationFocusGain>0.1</MeditationFocusGain>
+          <PsychicEntropyRecoveryRate>0.10</PsychicEntropyRecoveryRate>
+        </statOffsets>
+        <painFactor>0.9</painFactor>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalLiver</defName>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal liver. It's slightly better than a regular liver and helps slightly with bloodflow.</description>
     <label>crystal liver</label>
     <labelNoun>a crystal liver</labelNoun>
     <spawnThingOnRemoved>CrystalLiver</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalKidney</defName>
     <label>crystal kidney</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal kidney. The crystalline structures clean the blood a bit better than a regular kidney. It also helps with healing.</description>
     <labelNoun>a crystal kidney</labelNoun>
     <spawnThingOnRemoved>CrystalKidney</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <naturalHealingFactor>1.10</naturalHealingFactor>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalStomach</defName>
     <label>Crystal stomach</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal stomach. It gets rid of some microorganisms in the food before they can do any harm.</description>
     <labelNoun>a crystal stomach</labelNoun>
     <spawnThingOnRemoved>CrystalStomach</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+        <foodPoisoningChanceFactor>0.80</foodPoisoningChanceFactor>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalEye</defName>
     <label>crystal eye</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal eye. It looks shiny and leaves a strong impression on others.</description>
     <labelNoun>a crystal eye</labelNoun>
     <spawnThingOnRemoved>CrystalEye</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalArm</defName>
     <label>crystal arm</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal arm. It's quite hard and can pack a punch.</description>
     <labelNoun>a crystal arm</labelNoun>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
@@ -91,27 +155,42 @@
         </tools>
       </li>
     </comps>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
     <spawnThingOnRemoved>CrystalArm</spawnThingOnRemoved>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalLeg</defName>
     <label>crystal leg</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal leg.</description>
     <labelNoun>a crystal leg</labelNoun>
     <spawnThingOnRemoved>CrystalLeg</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
     <defName>CrystalSpine</defName>
     <label>crystal spine</label>
-    <description>An installed crystal bodypart.</description>
+    <description>An installed crystal spine.</description>
     <labelNoun>a crystal spine</labelNoun>
     <spawnThingOnRemoved>CrystalSpine</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.0</partEfficiency>
     </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
@@ -143,6 +222,11 @@
     <description>An installed crystal bodypart.</description>
     <labelNoun>a crystal ear</labelNoun>
     <spawnThingOnRemoved>CrystalEar</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
@@ -154,6 +238,11 @@
     <addedPartProps>
       <solid>true</solid>
     </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <!--=======Hand===================-->
@@ -168,6 +257,11 @@
       <solid>true</solid>
       <partEfficiency>0.80</partEfficiency>
     </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
@@ -196,6 +290,11 @@
       <solid>true</solid>
       <partEfficiency>1.00</partEfficiency>
     </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
@@ -471,6 +570,11 @@
       <solid>true</solid>
       <partEfficiency>1.00</partEfficiency>
     </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedCrystalBodyPartBase">
@@ -515,6 +619,11 @@
     <description>An installed adv. crystal bodypart.</description>
     <labelNoun>an adv. crystal eye</labelNoun>
     <spawnThingOnRemoved>AdvCrystalEye</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
@@ -537,6 +646,11 @@
       </li>
     </comps>
     <spawnThingOnRemoved>AdvCrystalArm</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
@@ -545,6 +659,11 @@
     <description>An installed adv. crystal bodypart.</description>
     <labelNoun>an adv. crystal leg</labelNoun>
     <spawnThingOnRemoved>AdvCrystalLeg</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="AddedAdvCrystalBodyPartBase">
@@ -553,6 +672,11 @@
     <description>An installed adv. crystal bodypart.</description>
     <labelNoun>an adv. crystal ear</labelNoun>
     <spawnThingOnRemoved>AdvCrystalEar</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets></statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <HediffDef ParentName="ImplantHediffBase">
@@ -565,6 +689,7 @@
     </addedPartProps>
     <stages>
       <li>
+        <statOffsets></statOffsets>
         <partEfficiencyOffset>-0.2</partEfficiencyOffset>
       </li>
     </stages>
@@ -581,6 +706,7 @@
     </addedPartProps>
     <stages>
       <li>
+        <statOffsets></statOffsets>
         <painFactor>0</painFactor>
       </li>
     </stages>
