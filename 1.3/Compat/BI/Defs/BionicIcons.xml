@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <BionicIconsTextureDef>
+        <defName>CBPBodyPartBase</defName>
+        <texture>Things/Item/Health/HealthItem</texture>
+        <onlyForColor>(173,216,230)</onlyForColor>
+        <replacement>BionicIcons/Boxes/BionicAdvanced</replacement>
+    </BionicIconsTextureDef>
+
+    <BionicIconsTextureDef>
+        <defName>CBPBodyPartAdvanced</defName>
+        <texture>Things/Item/Health/HealthItem</texture>
+        <onlyForColor>(204,153,255)</onlyForColor>
+        <replacement>BionicIcons/Boxes/Archotech</replacement>
+    </BionicIconsTextureDef>
+</Defs>
