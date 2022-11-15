@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <ThingDef ParentName="BenchBase">
     <defName>CBPAnimalGrowthStation</defName>
     <label>animal crystal growth station</label>
     <description>An animal crystal growth station for making different types of animal crystal prosthetics.</description>
-	<drawerType>MapMeshAndRealTime</drawerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
-      <texPath>Things/Building/CrystalGrowthStation/CBPCrystalGrowthStationAnimal</texPath>
+      <texPath>Things/Building/CrystalGrowthStation/CBPCrystalGrowthChamberGreenEmpty</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
       <drawRotated>false</drawRotated>
@@ -46,35 +46,35 @@
       <li>CBPAnimalRes</li>
     </researchPrerequisites>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="ProcessorFramework.CompProperties_Processor">
-    <capacity>1</capacity>
-    <independentProcesses>true</independentProcesses>
-    <parallelProcesses>true</parallelProcesses>
-    <dropIngredients>false</dropIngredients>
-    <showProductIcon>true</showProductIcon>
-    <barOffset>(0.0, 0.25)</barOffset>
-    <barScale>(1.0, 1.0)</barScale>
-    <colorCoded>false</colorCoded>
-    <processes>
-      <li>AniCrysTail</li>	
-	<li>AniCrysArm</li>
-      <li>AniCrysEar</li>
-      <li>AniCrysEye</li>
-      <li>AniCrysLung</li>
-      <li>AniCrysKidney</li>
-	<li>AniCrysLiver</li>
-	<li>AniCrysStomach</li>
-	<li>AniCrysHeart</li>
-	<li>AniCrysSpine</li>
-	<li>AniCrysLeg</li>
-	<li>AniCrysNose</li>
-	<li>AniCrysJaw</li>	
-    </processes>
-  </li>
+        <capacity>1</capacity>
+        <independentProcesses>true</independentProcesses>
+        <parallelProcesses>true</parallelProcesses>
+        <dropIngredients>false</dropIngredients>
+        <showProductIcon>true</showProductIcon>
+        <barOffset>(0.0, 0.25)</barOffset>
+        <barScale>(1.0, 1.0)</barScale>
+        <colorCoded>false</colorCoded>
+        <processes>
+          <li>AniCrysTail</li>
+          <li>AniCrysArm</li>
+          <li>AniCrysEar</li>
+          <li>AniCrysEye</li>
+          <li>AniCrysLung</li>
+          <li>AniCrysKidney</li>
+          <li>AniCrysLiver</li>
+          <li>AniCrysStomach</li>
+          <li>AniCrysHeart</li>
+          <li>AniCrysSpine</li>
+          <li>AniCrysLeg</li>
+          <li>AniCrysNose</li>
+          <li>AniCrysJaw</li>
+        </processes>
+      </li>
     </comps>
   </ThingDef>
-<ThingDef ParentName="RockBase">
+  <ThingDef ParentName="RockBase">
     <defName>CBPMineableCAnimalShard</defName>
     <label>green crystal ore</label>
     <description>Rock containing shards of green crystal.</description>
