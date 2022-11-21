@@ -1,673 +1,654 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-<!-- regular crystal -->
+  <!-- regular crystal -->
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysArm</defName>
-  <thingDef>CrystalArm</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal arm</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysArm</defName>
+    <thingDef>CrystalArm</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal arm</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysHand</defName>
-  <thingDef>CrystalHand</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal hand</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysHand</defName>
+    <thingDef>CrystalHand</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal hand</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysLeg</defName>
-  <thingDef>CrystalLeg</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal leg</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysLeg</defName>
+    <thingDef>CrystalLeg</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal leg</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysEye</defName>
-  <thingDef>CrystalEye</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal eye</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysEye</defName>
+    <thingDef>CrystalEye</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal eye</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysEar</defName>
-  <thingDef>CrystalEar</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal ear</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysEar</defName>
+    <thingDef>CrystalEar</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal ear</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysNose</defName>
-  <thingDef>CrystalNose</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal nose</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysNose</defName>
+    <thingDef>CrystalNose</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal nose</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysHeart</defName>
-  <thingDef>CrystalHeart</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal heart</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysHeart</defName>
+    <thingDef>CrystalHeart</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal heart</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysSpine</defName>
-  <thingDef>CrystalSpine</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal spine</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysSpine</defName>
+    <thingDef>CrystalSpine</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal spine</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysLiver</defName>
-  <thingDef>CrystalLiver</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal liver</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysLiver</defName>
+    <thingDef>CrystalLiver</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal liver</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysLung</defName>
-  <thingDef>CrystalLung</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal lung</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysLung</defName>
+    <thingDef>CrystalLung</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal lung</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysKidney</defName>
-  <thingDef>CrystalKidney</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal kidney</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysKidney</defName>
+    <thingDef>CrystalKidney</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal kidney</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysStomach</defName>
-  <thingDef>CrystalStomach</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal stomach</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysStomach</defName>
+    <thingDef>CrystalStomach</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal stomach</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>CrysJaw</defName>
-  <thingDef>CrystalJaw</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>crystal jaw</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>CrysJaw</defName>
+    <thingDef>CrystalJaw</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>8</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>crystal jaw</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<!-- advanced crystal -->
+  <!-- advanced crystal -->
 
-<ProcessorFramework.ProcessDef>
-  <defName>AdvCrysArm</defName>
-  <thingDef>AdvCrystalArm</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCAdvSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>advanced crystal arm</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>AdvCrysArm</defName>
+    <thingDef>AdvCrystalArm</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCAdvSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix>Filled</filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>advanced crystal arm</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>AdvCrysLeg</defName>
-  <thingDef>AdvCrystalLeg</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCAdvSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>advanced crystal leg</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>AdvCrysLeg</defName>
+    <thingDef>AdvCrystalLeg</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCAdvSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>advanced crystal leg</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>AdvCrysEye</defName>
-  <thingDef>AdvCrystalEye</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCAdvSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>advanced crystal eye</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>AdvCrysEye</defName>
+    <thingDef>AdvCrystalEye</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCAdvSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>advanced crystal eye</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>AdvCrysEar</defName>
-  <thingDef>AdvCrystalEar</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCAdvSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>advanced crystal ear</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>AdvCrysEar</defName>
+    <thingDef>AdvCrystalEar</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCAdvSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>advanced crystal ear</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>AdvCrysJoy</defName>
-  <thingDef>AdvCrystalJoy</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCAdvSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>advanced crystal joy</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>AdvCrysJoy</defName>
+    <thingDef>AdvCrystalJoy</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCAdvSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>advanced crystal joy</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
-<ProcessorFramework.ProcessDef>
-  <defName>AdvCrysPain</defName>
-  <thingDef>AdvCrystalPain</thingDef>
-  <ingredientFilter>
-    <thingDefs>
-      <li>CBPCAdvSeed</li>
-    </thingDefs>
-  </ingredientFilter>
-  <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
-  <capacityFactor>1.0</capacityFactor>
-  <efficiency>1.0</efficiency>
-  <usesTemperature>false</usesTemperature>
-  <temperatureSafe>-1.0~32.0</temperatureSafe>
-  <temperatureIdeal>7.0~32.0</temperatureIdeal>
-  <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
-  <speedBelowSafe>0.1</speedBelowSafe>
-  <speedAboveSafe>1.0</speedAboveSafe>
-  <sunFactor>1.0~1.0</sunFactor>
-  <rainFactor>1.0~1.0</rainFactor>
-  <snowFactor>1.0~1.0</snowFactor>
-  <windFactor>1.0~1.0</windFactor>
-  <unpoweredFactor>1.0</unpoweredFactor>
-  <unfueledFactor>1.0</unfueledFactor>
-  <powerUseFactor>0.0</powerUseFactor>
-  <fuelUseFactor>0.0</fuelUseFactor>
-  <filledGraphicSuffix></filledGraphicSuffix>
-  <usesQuality>false</usesQuality>
-  <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
-  <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
-  <customLabel>advanced crystal pain</customLabel>
-  <destroyChance>0.0</destroyChance>
-  <bonusOutputs>
-  </bonusOutputs>
-</ProcessorFramework.ProcessDef>
+  <ProcessorFramework.ProcessDef>
+    <defName>AdvCrysPain</defName>
+    <thingDef>AdvCrystalPain</thingDef>
+    <ingredientFilter>
+      <thingDefs>
+        <li>CBPCAdvSeed</li>
+      </thingDefs>
+    </ingredientFilter>
+    <processDays>11</processDays> <!-- in days, a day is 60,000 ticks -->
+    <capacityFactor>1.0</capacityFactor>
+    <efficiency>1.0</efficiency>
+    <usesTemperature>false</usesTemperature>
+    <temperatureSafe>-1.0~32.0</temperatureSafe>
+    <temperatureIdeal>7.0~32.0</temperatureIdeal>
+    <ruinedPerDegreePerHour>2.5</ruinedPerDegreePerHour> <!-- percent per degree per hour -->
+    <speedBelowSafe>0.1</speedBelowSafe>
+    <speedAboveSafe>1.0</speedAboveSafe>
+    <sunFactor>1.0~1.0</sunFactor>
+    <rainFactor>1.0~1.0</rainFactor>
+    <snowFactor>1.0~1.0</snowFactor>
+    <windFactor>1.0~1.0</windFactor>
+    <unpoweredFactor>1.0</unpoweredFactor>
+    <unfueledFactor>1.0</unfueledFactor>
+    <powerUseFactor>0.0</powerUseFactor>
+    <fuelUseFactor>0.0</fuelUseFactor>
+    <filledGraphicSuffix></filledGraphicSuffix>
+    <usesQuality>false</usesQuality>
+    <qualityDays>(6, 6, 6, 7, 8, 10, 12)</qualityDays>
+    <color>(255, 255, 255)</color> <!-- 0-255 or 0.0-1.0 -->
+    <customLabel>advanced crystal pain</customLabel>
+    <destroyChance>0.0</destroyChance>
+    <bonusOutputs></bonusOutputs>
+  </ProcessorFramework.ProcessDef>
 
 </Defs>
