@@ -8,7 +8,7 @@
     <description>Shards form a blue crystal found in mountains used for crystal prosthetics.</description>
     <graphicData>
       <texPath>Things/Item/CBPCrystalShardBlue</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -26,15 +26,15 @@
       <min>6</min>
       <max>12</max>
     </deepLumpSizeRange>
-  </ThingDef> 
-  
+  </ThingDef>
+
   <ThingDef ParentName="ResourceBase">
     <defName>CBPCAdvShard</defName>
     <label>purple crystal shards</label>
     <description>Shards form a purple crystal found in mountains used for adv. crystal prosthetics.</description>
     <graphicData>
       <texPath>Things/Item/CBPCrystalShardAdv</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -53,7 +53,7 @@
       <max>8</max>
     </deepLumpSizeRange>
   </ThingDef>
-  
+
   <ThingDef ParentName="ResourceBase">
     <defName>CBPCCore</defName>
     <label>crystal core</label>
@@ -73,33 +73,32 @@
       <li>ResourcesRaw</li>
     </thingCategories>
   </ThingDef>
-  
-  
-  
+
+
   <ThingDef Abstract="True" Name="CrystalSeedBase" ParentName="ResourceBase">
     <graphicData>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
       <Flammability>0.8</Flammability>
       <DeteriorationRate>4</DeteriorationRate>
-	  <Mass>0.3</Mass>
+      <Mass>0.3</Mass>
     </statBases>
     <tickerType>Rare</tickerType>
   </ThingDef>
-  
+
   <ThingDef ParentName="CrystalSeedBase">
     <defName>CBPCSeed</defName>
     <label>crystal seed</label>
     <description>A crystal seed, put it into a crystal growth station.</description>
     <graphicData>
       <texPath>Things/Item/CBPCrystalSeedBlue</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
-	<stackLimit>10</stackLimit>
+    <stackLimit>10</stackLimit>
     <statBases>
       <MarketValue>30</MarketValue>
       <Mass>0.5</Mass>
@@ -107,19 +106,19 @@
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-  </ThingDef> 
-  
+  </ThingDef>
+
   <ThingDef ParentName="CrystalSeedBase">
     <defName>CBPCAdvSeed</defName>
     <label>adv. crystal seed</label>
     <description>An adv. crystal seed, put it into an adv. crystal growth station.</description>
     <graphicData>
       <texPath>Things/Item/CBPCrystalSeedAdv</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
-	<stackLimit>10</stackLimit>
+    <stackLimit>10</stackLimit>
     <statBases>
       <MarketValue>45</MarketValue>
       <Mass>0.5</Mass>

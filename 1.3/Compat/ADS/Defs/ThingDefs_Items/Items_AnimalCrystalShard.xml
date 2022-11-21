@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
- <ThingDef ParentName="ResourceBase">
+  <ThingDef ParentName="ResourceBase">
     <defName>CBPCAnimalShard</defName>
     <label>green crystal shards</label>
     <description>Shards form a green crystal found in mountains used for animal crystal prosthetics.</description>
     <graphicData>
       <texPath>Things/Item/CBPCrystalShardAnimal</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -27,13 +27,13 @@
     </deepLumpSizeRange>
   </ThingDef>
 
- <ThingDef ParentName="CrystalSeedBase">
+  <ThingDef ParentName="CrystalSeedBase">
     <defName>CBPCAnimalSeed</defName>
     <label>animal crystal seed</label>
     <description>An animal crystal seed, put it into an animal crystal growth station.</description>
     <graphicData>
       <texPath>Things/Item/CBPCrystalSeedAnimal</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -46,8 +46,6 @@
       <li>ResourcesRaw</li>
     </thingCategories>
   </ThingDef>
-
-
 
 
 </Defs>
