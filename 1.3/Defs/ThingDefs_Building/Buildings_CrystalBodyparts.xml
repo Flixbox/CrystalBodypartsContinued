@@ -8,9 +8,9 @@
     <description>A crystal growth chamber for making different types of crystal prosthetics.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
-      <texPath>Things/Building/CrystalGrowthStation/CBPCrystalGrowthChamberBlueEmpty</texPath>
+      <texPath>Things/Building/CrystalGrowthChamberBlue/CBPCrystalGrowthChamberBlue</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1,1)</drawSize>
+      <drawSize>(1,2)</drawSize>
       <drawRotated>false</drawRotated>
       <allowFlip>false</allowFlip>
       <damageData>
@@ -27,7 +27,7 @@
     <fillPercent>0.45</fillPercent>
     <pathCost>60</pathCost>
     <rotatable>false</rotatable>
-    <size>(1,1)</size>
+    <size>(1,2)</size>
     <costList>
       <Steel>20</Steel>
       <CBPCCore>2</CBPCCore>
@@ -54,8 +54,8 @@
         <independentProcesses>true</independentProcesses>
         <parallelProcesses>true</parallelProcesses>
         <dropIngredients>false</dropIngredients>
-        <showProductIcon>true</showProductIcon>
-        <barOffset>(0.0, 0.25)</barOffset>
+        <showProductIcon>false</showProductIcon>
+        <barOffset>(0.0, -0.8)</barOffset>
         <barScale>(1.0, 1.0)</barScale>
         <colorCoded>false</colorCoded>
         <processes>
@@ -86,7 +86,6 @@
       <texPath>Things/Building/CrystalGrowthChamberPurple/CBPCrystalGrowthChamberPurple</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,2)</drawSize>
-      <drawOffset>(0,0,0.5)</drawOffset>
       <drawRotated>false</drawRotated>
       <allowFlip>false</allowFlip>
       <damageData>
@@ -103,7 +102,7 @@
     <fillPercent>0.45</fillPercent>
     <pathCost>60</pathCost>
     <rotatable>false</rotatable>
-    <size>(1,1)</size>
+    <size>(1,2)</size>
     <costList>
       <Steel>20</Steel>
       <CBPCCore>3</CBPCCore>
@@ -132,7 +131,7 @@
         <parallelProcesses>true</parallelProcesses>
         <dropIngredients>false</dropIngredients>
         <showProductIcon>false</showProductIcon>
-        <barOffset>(0.0, -0.7)</barOffset>
+        <barOffset>(0.0, -0.8)</barOffset>
         <barScale>(1.0, 1.0)</barScale>
         <colorCoded>false</colorCoded>
         <processes>
