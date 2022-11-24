@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
- <!--=======Animal===============-->
+  <!--=======Animal===============-->
 
   <ThingDef ParentName="CBPBodyPartBase">
     <defName>AnimalCrystalTail</defName>
@@ -12,17 +12,17 @@
     </graphicData>
     <statBases>
       <MarketValue>1200</MarketValue>
-      <Mass>3</Mass>	
+      <Mass>3</Mass>
     </statBases>
-	<tradeTags>
-			<li>AnimalBionics</li>
-		</tradeTags>
-		<thingSetMakerTags>
-			<li>AnimalPart</li>
-		</thingSetMakerTags>
-	<thingCategories>
-			<li>BodyPartsAnimalArtificial</li>
-		</thingCategories>
+    <tradeTags>
+      <li>AnimalBionics</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+    <thingCategories>
+      <li>BodyPartsAnimalArtificial</li>
+    </thingCategories>
   </ThingDef>
 
   <ThingDef ParentName="CBPBodyPartBase">
@@ -180,8 +180,6 @@
       <Mass>1</Mass>
     </statBases>
   </ThingDef>
-
-
 
 
 </Defs>

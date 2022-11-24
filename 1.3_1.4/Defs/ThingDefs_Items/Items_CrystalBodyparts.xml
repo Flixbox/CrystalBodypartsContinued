@@ -316,5 +316,17 @@
     </statBases>
   </ThingDef>
 
+
+  <!-- Archotech skin -->
+
+
+  <ThingDef ParentName="CBPBodyPartAdvanced">
+    <defName>CBPAdvCrystalSkin</defName>
+    <label>Adv. Crystal skin</label>
+    <description>This small, flat crystal quickly spreads to cover the user's body. The new skin is very pretty and sturdy, but feels cold.</description>
+  </ThingDef>
+
+
+
 </Defs>
   

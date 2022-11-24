@@ -723,4 +723,22 @@
     <spawnThingOnRemoved>AdvCrystalPain</spawnThingOnRemoved>
   </HediffDef>
 
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>CBPAdvCrystalSkin</defName>
+    <label>adv. crystal skin</label>
+    <description>An installed adv. crystal bodypart. It seems to sap heat out of the body.</description>
+    <spawnThingOnRemoved>CBPAdvCrystalSkin</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <PawnBeauty>1.0</PawnBeauty>
+          <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.4</ArmorRating_Heat>
+          <ComfyTemperatureMax>20</ComfyTemperatureMax>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
 </Defs>

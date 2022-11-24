@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/HediffDef[@ParentName="AddedCrystalBodyPartBase" or @ParentName="AddedAdvCrystalBodyPartBase"]/stages/li[1]/statOffsets</xpath>
+        <xpath>Defs/HediffDef[@ParentName="AddedCrystalBodyPartBase" or @ParentName="AddedAdvCrystalBodyPartBase" or defName="CBPAdvCrystalSkin"]/stages/li[1]/statOffsets</xpath>
         <value>
             <ComfyTemperatureMin>4</ComfyTemperatureMin>
         </value>

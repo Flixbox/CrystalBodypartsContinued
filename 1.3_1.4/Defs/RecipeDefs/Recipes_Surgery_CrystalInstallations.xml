@@ -6,6 +6,11 @@
     <recipeUsers>
       <li>Human</li>
     </recipeUsers>
+    <workAmount>2500</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
   </RecipeDef>
 
   <!--=======Normal==Advanced===============-->
@@ -14,12 +19,7 @@
     <defName>InstallCrystalKidney</defName>
     <label>install crystal kidney</label>
     <description>Install a crystal kidney.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal kidney.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -49,19 +49,14 @@
     <appliedOnFixedBodyParts>
       <li>Kidney</li>
     </appliedOnFixedBodyParts>
-	<addsHediff>CrystalKidney</addsHediff>
+    <addsHediff>CrystalKidney</addsHediff>
   </RecipeDef>
 
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallCrystalLiver</defName>
     <label>install crystal liver</label>
     <description>Install a crystal liver.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal liver.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -91,19 +86,14 @@
     <appliedOnFixedBodyParts>
       <li>Liver</li>
     </appliedOnFixedBodyParts>
-	<addsHediff>CrystalLiver</addsHediff>
+    <addsHediff>CrystalLiver</addsHediff>
   </RecipeDef>
 
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallCrystalLung</defName>
     <label>install crystal lung</label>
     <description>Install a crystal lung.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal lung.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -133,19 +123,14 @@
     <appliedOnFixedBodyParts>
       <li>Lung</li>
     </appliedOnFixedBodyParts>
-	<addsHediff>CrystalLung</addsHediff>
+    <addsHediff>CrystalLung</addsHediff>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallCrystalStomach</defName>
     <label>install crystal stomach</label>
     <description>Install a crystal stomach.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal stomach.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -175,20 +160,15 @@
     <appliedOnFixedBodyParts>
       <li>Stomach</li>
     </appliedOnFixedBodyParts>
-	<addsHediff>CrystalStomach</addsHediff>
+    <addsHediff>CrystalStomach</addsHediff>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallCrystalJaw</defName>
     <label>install crystal jaw</label>
     <description>Install a crystal jaw.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal jaw.</jobString>
-    <workAmount>1500</workAmount>
     <surgerySuccessChanceFactor>1.40</surgerySuccessChanceFactor>
-    <skillRequirements>
-      <Medicine>2</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -198,7 +178,7 @@
         </filter>
         <count>1</count>
       </li>
-	  <li>
+      <li>
         <filter>
           <thingDefs>
             <li>CrystalJaw</li>
@@ -211,7 +191,7 @@
       <categories>
         <li>Medicine</li>
       </categories>
-	  <thingDefs>
+      <thingDefs>
         <li>CrystalJaw</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -220,17 +200,12 @@
     </appliedOnFixedBodyParts>
     <addsHediff>CrystalJaw</addsHediff>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallCrystalArm</defName>
     <label>install crystal arm</label>
     <description>Install a crystal arm.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal arm.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -267,12 +242,7 @@
     <defName>InstallCrystalLeg</defName>
     <label>install crystal leg</label>
     <description>Install a crystal leg.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal leg.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -309,12 +279,7 @@
     <defName>InstallCrystalSpine</defName>
     <label>install crystal spine</label>
     <description>Install a crystal spine.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal spine.</jobString>
-    <workAmount>3000</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -351,12 +316,7 @@
     <defName>InstallCrystalHeart</defName>
     <label>install crystal heart</label>
     <description>Install a crystal heart.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal heart.</jobString>
-    <workAmount>2000</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -388,17 +348,12 @@
     </appliedOnFixedBodyParts>
     <addsHediff>CrystalHeart</addsHediff>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallCrystalEar</defName>
     <label>install crystal ear</label>
     <description>Install a crystal ear.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal ear.</jobString>
-    <workAmount>2000</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -430,17 +385,12 @@
     </appliedOnFixedBodyParts>
     <addsHediff>CrystalEar</addsHediff>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallCrystalNose</defName>
     <label>install crystal nose</label>
     <description>Install a crystal nose.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal nose.</jobString>
-    <workAmount>2000</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -472,17 +422,12 @@
     </appliedOnFixedBodyParts>
     <addsHediff>CrystalNose</addsHediff>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallAdvCrystalEar</defName>
     <label>install advanced crystal ear</label>
     <description>Install an advanced crystal ear.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal ear.</jobString>
-    <workAmount>2000</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -519,12 +464,7 @@
     <defName>InstallAdvCrystalArm</defName>
     <label>install advanced crystal arm</label>
     <description>Install an advanced crystal arm.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal arm.</jobString>
-    <workAmount>3000</workAmount>
-    <skillRequirements>
-      <Medicine>8</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -561,12 +501,7 @@
     <defName>InstallAdvCrystalLeg</defName>
     <label>install advanced crystal leg</label>
     <description>Install an advanced crystal leg.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal leg.</jobString>
-    <workAmount>3000</workAmount>
-    <skillRequirements>
-      <Medicine>8</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -598,18 +533,13 @@
     </appliedOnFixedBodyParts>
     <addsHediff>AdvCrystalLeg</addsHediff>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallCrystalEye</defName>
     <label>install crystal eye</label>
     <description>Install a crystal eye.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal eye.</jobString>
-    <workAmount>3500</workAmount>
     <deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -646,12 +576,7 @@
     <defName>InstallAdvCrystalEye</defName>
     <label>install advanced crystal eye</label>
     <description>Install an advanced crystal eye.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal eye.</jobString>
-    <workAmount>4000</workAmount>
-    <skillRequirements>
-      <Medicine>8</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -683,17 +608,12 @@
     </appliedOnFixedBodyParts>
     <addsHediff>AdvCrystalEye</addsHediff>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallAdvCrystalJoy</defName>
     <label>install advanced crystal joy</label>
     <description>Install an advanced crystal joy.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal joy.</jobString>
-    <workAmount>3700</workAmount>
-    <skillRequirements>
-      <Medicine>8</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -725,17 +645,12 @@
     </appliedOnFixedBodyParts>
     <addsHediff>AdvCrystalJoy</addsHediff>
   </RecipeDef>
-  
+
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallAdvCrystalPain</defName>
     <label>install advanced crystal pain relief</label>
     <description>Install an advanced crystal pain relief.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal pain relief.</jobString>
-    <workAmount>3700</workAmount>
-    <skillRequirements>
-      <Medicine>8</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -767,19 +682,14 @@
     </appliedOnFixedBodyParts>
     <addsHediff>AdvCrystalPain</addsHediff>
   </RecipeDef>
-  
+
   <!--=======Hand===============-->
 
   <RecipeDef ParentName="CBPSurgeryFlesh">
     <defName>InstallCrystalHand</defName>
     <label>install crystal hand</label>
     <description>Install a crystal hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -816,12 +726,7 @@
     <defName>InstallCrystalClaw</defName>
     <label>install crystal claw hand</label>
     <description>Install a crystal claw hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal claw hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -858,12 +763,7 @@
     <defName>InstallCrystalHandDrill</defName>
     <label>install crystal drill hand</label>
     <description>Install a crystal drill hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal drill hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -900,12 +800,7 @@
     <defName>InstallCrystalHandCrafting</defName>
     <label>install crystal crafting hand</label>
     <description>Install a crystal crafting hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal crafting hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -942,12 +837,7 @@
     <defName>InstallCrystalHandSickle</defName>
     <label>install crystal sickle hand</label>
     <description>Install a crystal sickle hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal sickle hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -984,12 +874,7 @@
     <defName>InstallCrystalHandMedical</defName>
     <label>install crystal medical hand</label>
     <description>Install a crystal medical hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal medical hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -1026,12 +911,7 @@
     <defName>InstallCrystalHandHammer</defName>
     <label>install crystal hammer hand</label>
     <description>Install a crystal hammer hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal hammer hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -1068,12 +948,7 @@
     <defName>InstallCrystalHandCooking</defName>
     <label>install crystal cooking hand</label>
     <description>Install a crystal cooking hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal cooking hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -1110,12 +985,7 @@
     <defName>InstallCrystalHandKnife</defName>
     <label>install crystal knife hand</label>
     <description>Install a crystal knife hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal knife hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -1152,12 +1022,7 @@
     <defName>InstallCrystalHandClub</defName>
     <label>install crystal club hand</label>
     <description>Install a crystal club hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal club hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -1194,12 +1059,7 @@
     <defName>InstallCrystalHandAxe</defName>
     <label>install crystal axe hand</label>
     <description>Install a crystal axe hand.</description>
-    <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
     <jobString>Installing crystal axe hand.</jobString>
-    <workAmount>2500</workAmount>
-    <skillRequirements>
-      <Medicine>5</Medicine>
-    </skillRequirements>
     <ingredients>
       <li>
         <filter>
@@ -1230,6 +1090,52 @@
       <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>CrystalHandAxe</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CBPSurgeryFlesh">
+    <defName>InstallCBPAdvCrystalSkin</defName>
+    <label>install adv. crystal skin</label>
+    <description>Install adv. crystal skin.</description>
+    <descriptionHyperlinks>
+      <ThingDef>CBPAdvCrystalSkin</ThingDef>
+      <HediffDef>CBPAdvCrystalSkin</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing adv. crystal skin.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CBPAdvCrystalSkin</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CBPAdvCrystalSkin</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Body</li>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CBPAdvCrystalSkin</addsHediff>
+    <incompatibleWithHediffTags>
+      <li>BIE_SkinImplant</li>
+    </incompatibleWithHediffTags>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryRemoveImplantBase">
+    <defName>RemoveCBPAdvCrystalSkin</defName>
+    <label>remove adv. crystal skin</label>
+    <description>Remove adv. crystal skin.</description>
+    <descriptionHyperlinks>
+      <ThingDef>CBPAdvCrystalSkin</ThingDef>
+      <HediffDef>CBPAdvCrystalSkin</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Removing crystal skin.</jobString>
+    <removesHediff>CBPAdvCrystalSkin</removesHediff>
   </RecipeDef>
 
 </Defs>
